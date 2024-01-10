@@ -16,14 +16,14 @@ const Header = () => {
                     <div className='ms-1 text-xs'>How it works</div>
                 </div>
             </div>
-            <div className='flex-1 flex  bg-black_95 items-center rounded-md px-2 '>
+            <div className='flex-1 flex  bg-black_95 items-center rounded-md px-2 text-black_50'>
                 <IconButton sx={{ p: '10px', fontSize: '20px' }} aria-label="search">
-                    <FiSearch />
+                    <FiSearch color='#808080'/>
                 </IconButton>
                 <Input placeholder="Search features, tutorials, etc." className='w-full' disableUnderline="true"/>
             </div>
             <div className='flex-1 flex items-center justify-end'>
-                <div className='bg-black_90 p-2 rounded-full me-2 text-black_30'><MdSms fontSize={"25px"}/></div>
+                <div className='bg-black_90 p-2 rounded-full me-2 text-black_30'><MdSms fontSize={"25px"} /></div>
                 <div className=' rounded-full bg-black_90'><ArrowDropDownRoundedIcon sx={{fontSize:'41px', color:"#4d4d4d"}}/></div>
             </div>
         </div>

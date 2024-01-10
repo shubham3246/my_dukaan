@@ -5,8 +5,8 @@ import Transactions from './transactions/Transactions.jsx';
 
 const Body = () => {
   return (
-    <div className='bg-black_95 h-full px-8'>
-        <div className='flex items-center justify-between  py-7'>
+    <div className='bg-body_bg p-8'>
+        <div className='flex items-center justify-between  pb-7'>
             <div className='text-lg font-semibold text-black_12'>Overview</div>
             <Dropdown/>
         </div>
